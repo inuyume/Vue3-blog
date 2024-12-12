@@ -1,7 +1,6 @@
 <script setup>
 import { ElContainer, ElHeader, ElTable, ElTableColumn, ElButton, ElMain, ElMessage } from "element-plus";
 import { ref, onMounted } from 'vue';
-import axios from 'axios';
 import { useRouter } from 'vue-router';
 import apiClient from "../api/api.js";
 

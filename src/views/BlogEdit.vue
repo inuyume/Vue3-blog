@@ -2,7 +2,6 @@
 import { ref, onMounted, watch, shallowRef, onBeforeUnmount } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 import { ElContainer, ElHeader, ElButton, ElMain, ElMessage, ElInput, ElForm, ElFormItem } from "element-plus";
-import axios from 'axios';
 import { Editor, Toolbar } from "@wangeditor/editor-for-vue";
 import apiClient from "../api/api.js";
 

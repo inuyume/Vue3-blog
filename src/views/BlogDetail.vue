@@ -1,6 +1,5 @@
 <script setup>
 import {ElContainer, ElHeader, ElMain} from "element-plus";
-import axios from "axios";
 import {useRoute} from "vue-router";
 import {onMounted,ref} from "vue";
 import {startSakura} from "../components/Sakura.js";

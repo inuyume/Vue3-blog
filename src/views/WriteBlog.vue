@@ -4,7 +4,6 @@ import '@wangeditor/editor/dist/css/style.css' // 引入 css
 import {onBeforeUnmount, ref, shallowRef, onMounted, watch} from 'vue'
 import {Editor, Toolbar} from '@wangeditor/editor-for-vue'
 import {ElButton, ElMessage, ElForm, ElFormItem, ElInput} from "element-plus";
-import axios from 'axios';
 import apiClient from "../api/api.js";
 
 const form = ref({
